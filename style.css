@@ -1,0 +1,96 @@
+*{
+    margin:0%; 
+    padding: 0%;
+    box-sizing: border-box;
+}
+html, body{
+   height: 100%;
+   width: 100%;
+}
+body{
+    background-image:url(./background-6517956_640.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding:2%;
+}
+
+.contenedor{
+
+        width: 50%;
+        height: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 5px;
+        grid-template-areas:
+        "area1 area2 area3 area3"
+        "area1 area4 area5 area5 "
+        "area6 area4 area8 area7"
+}
+
+.img1{
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-area: area1;
+    background-image:url(./img.jpg);
+    border-radius: 3px;
+}
+
+.img2{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: area2; 
+    background-image:url(./img2.jpg);
+    border-radius: 3px;
+}
+
+.img3{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: area3;
+    background-image:url(./img3.jpg);
+    border-radius: 3px;
+}
+
+.img4{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: area4;
+    background-image:url(./img4.jpg);
+    border-radius: 3px;
+}
+.img5{
+
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: area5;
+    background-image:url(./img5.jpg);
+    border-radius: 3px;
+}
+.img6{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: area6;
+    background-image:url(./img6.jpg);
+    border-radius: 3px;}
+.img7{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: area7;
+    background-image:url(./img7.jpg);
+    border-radius: 3px;
+}
+.img8{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: area8;
+    background-image:url(./img8.jpg);
+    border-radius: 3px;
+}
